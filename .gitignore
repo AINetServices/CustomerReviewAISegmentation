@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# --- Virtual envs ---
+.venv/
+.venv311/
+venv/
+env/
+ENV/
+
+# --- Secrets ---
+.env
+.env.*
+*.env
+.streamlit/secrets.toml
+
+# --- Editors/OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Caches/Logs ---
+.cache/
+*.log
